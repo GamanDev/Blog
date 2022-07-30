@@ -1,0 +1,29 @@
+.details {
+  background-color: rgba(100, 255, 255, 0.15);
+  margin: 7px;
+  padding: 10px;
+}
+
+.article {
+  padding: 10px;
+  background-color: rgba(100, 255, 255, 0.3);
+}
+
+.article__text {
+  text-align: center;
+  background-color: rgba(112, 136, 136, 0.3);
+}
+
+.details__button_delete {
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(0, 255, 255);
+  padding: 8px;
+  border-radius: 7px;
+  width: 100px;
+}
+
+.details__button_delete:hover {
+  background-color: rgba(0, 255, 255, 0.5);
+  cursor: pointer;
+}

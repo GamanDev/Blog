@@ -1,0 +1,9 @@
+.blog {
+  background-color: rgba(114, 212, 230, 0.5);
+  padding: 15px;
+  margin: 10px;
+}
+
+.blog:hover {
+  background-color: rgba(114, 212, 230, 0.8);
+}

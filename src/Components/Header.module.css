@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+
+.header__h1 {
+  margin-right: auto;
+  margin-left: 20px;
+  color: rgb(17, 182, 233);
+  text-shadow: 1px 4px rgba(117, 238, 238, 0.9);
+}
+
+.header__h2 {
+  margin: 10px;
+}
+
+.header__h2_cyan {
+  background-color: rgb(0, 255, 255);
+  padding: 3px;
+  border-radius: 7px;
+}
+
+.header__h2_cyan:hover {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
