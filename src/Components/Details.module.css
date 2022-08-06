@@ -14,7 +14,7 @@
   background-color: rgba(112, 136, 136, 0.3);
 }
 
-.details__button_delete {
+.details__delete {
   margin-top: 20px;
   border: none;
   background-color: rgb(0, 255, 255);
@@ -23,7 +23,7 @@
   width: 100px;
 }
 
-.details__button_delete:hover {
+.details__delete:hover {
   background-color: rgba(0, 255, 255, 0.5);
   cursor: pointer;
 }

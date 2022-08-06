@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import useFetch from '../useFetchHook/useFetch';
+import useFetch from '../Hooks/useFetch';
 import style from './Details.module.css';
 
 const Details = () => {
@@ -26,7 +26,7 @@ const Details = () => {
             <p>Written by {blog.name}</p>
             <div className={style.article__text}>{blog.text}</div>
           </article>
-          <button className={style.details__button_delete} onClick={handleDelete}>
+          <button className={style.details__delete} onClick={handleDelete}>
             Delete Post
           </button>
         </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import style from './Create.module.css';
 import { useNavigate } from 'react-router-dom';
+import { fetchPost } from '../utils/fetchPost';
 
 const Create = () => {
   const [title, setTitle] = useState('');
@@ -15,13 +16,7 @@ const Create = () => {
 
     setIsPending(true);
 
-    fetch('http://localhost:8000/blogs', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json'
-      },
-      body: JSON.stringify(blog)
-    }).then(() => {
+    fetchPost('http://localhost:8000/blogs', blog).then(() => {
       setIsPending(false);
       navigate('/');
     });
